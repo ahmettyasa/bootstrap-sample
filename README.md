@@ -1,3 +1,2 @@
 # bootstrap-sample
-
-![](bootstrap-sample/ssbootstrap.png)
+![](ahmettyasa/bootstrap-sample/ssbootstrap.png)
