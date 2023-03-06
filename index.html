@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Ödev</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/4221ba9cb2.js" crossorigin="anonymous"></script>
+
+
+  <style>
+    #navBar {
+      color: aliceblue;
+
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      margin-bottom: 1rem;
+    }
+
+    #navBar a {
+      color: inherit;
+    }
+
+    body {
+      background-color: rgb(211, 213, 218);
+    }
+
+    h5 {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .buttons {
+      text-align: center;
+
+    }
+
+    #rtext {
+      margin-top: 2rem;
+      height: 160px;
+      width: 176px;
+      border-radius: 56px;
+      object-fit: cover;
+    }
+
+    .icons{text-align: end;}
+
+    .icons span i {margin-left: 1rem;}
+
+
+
+
+
+  </style>
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-dark" id="navBar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  
+
+  <div class="container">
+
+
+
+    <div class="icons">
+      <span><i class="fa-brands fa-facebook fa-xl	"></i></span>
+      <span><i class="fa-brands fa-twitter fa-xl"></i></span>
+      <span><i class="fa-brands fa-instagram fa-xl"></i></span>
+      <span><i class="fa-brands fa-forumbee fa-xl"></i></span>
+  
+  
+    </div>
+
+    <h5>KATEGORİLERE GÖRE ENTRY ARA</h5>
+
+    <hr>
+
+    <div class="buttons">
+      <button type="button" class="btn btn-dark">Oyun</button>
+      <button type="button" class="btn btn-dark">Gündem</button>
+      <button type="button" class="btn btn-dark">Anime</button>
+      <button type="button" class="btn btn-dark">Sinema</button>
+      <button type="button" class="btn btn-dark">Teknoloji</button>
+      <button type="button" class="btn btn-dark">Eğitim</button>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+
+
+      <div class="col-sm-12 col-md-12 col-lg-8">
+
+        <h6>SON EKLENEN İÇERİKLER</h6>
+
+        <hr>
+
+        <div class="card" style="width: 738px;">
+          <img src="./PHOTOS/s-cf1929f13daa32a8db84194b7f40e2f8159e131c.webp" class="card-img-top"
+            alt="lastofus">
+          <div class="card-body">
+            <p class="card-text">The Last Of Us, oyun dünyasını kasıp kavurmasının ardından şimdi de dizi uyarlamasıyla
+              sevenlerinin karşısına çıktı. Daha vizyona girmeden eleştirmenlerden yüksek puan alan korku dizisi, HBO
+              ekranlarında yayınlanmasının ardından, ülkemizde ise 16 Ocak'ta BluTV'de izleyicisiyle buluştu.</p>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="card" style="width: 738px;">
+          <img src="./PHOTOS/game-changers-1.webp" class="card-img-top"
+            alt="lastofus">
+          <div class="card-body">
+            <p class="card-text">VALORANT Game Changers Turnuvası Hakkında Bilmeniz Gereken Her Şey</p>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-4">
+
+        <h6>BUGÜN POPÜLER OLAN İÇERİKLER</h6>
+
+        <hr>
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img id="rtext" src="./PHOTOS/exxen-gibi-dizisi-neden-bu-kadar-ilgi-gordu-1621071809.jpg"
+                class="img-fluid rounded-start" alt="gibihaber">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Dizi</h5>
+                <p class="card-text">'Gibi' Dizisinin 4. Sezon Çekimleri Tamamlandı: Yayın Tarihinden İlk Bilgiler Geldi
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img id="rtext" src="./PHOTOS/binance-gectigimiz-yil-kullanicilara-sundugu-yenilikleri-acikladi-1677679347.webp"
+                class="img-fluid rounded-start" alt="gibihaber">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Teknoloji</h5>
+                <p class="card-text">Binance, Geçtiğimiz Yıl Kullanıcılara Sunduğu Yenilikleri Açıkladı: Yenilikler Bu Yıl da Devam Edecek
+
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img id="rtext" src="./PHOTOS/exxen-gibi-dizisi-neden-bu-kadar-ilgi-gordu-1621071809.jpg"
+                class="img-fluid rounded-start" alt="gibihaber">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Dizi</h5>
+                <p class="card-text">'Gibi' Dizisinin 4. Sezon Çekimleri Tamamlandı: Yayın Tarihinden İlk Bilgiler Geldi
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img id="rtext" src="./PHOTOS/exxen-gibi-dizisi-neden-bu-kadar-ilgi-gordu-1621071809.jpg"
+                class="img-fluid rounded-start" alt="gibihaber">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Dizi</h5>
+                <p class="card-text">'Gibi' Dizisinin 4. Sezon Çekimleri Tamamlandı: Yayın Tarihinden İlk Bilgiler Geldi
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
